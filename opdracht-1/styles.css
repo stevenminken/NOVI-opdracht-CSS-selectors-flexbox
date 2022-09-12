@@ -1,0 +1,65 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+/*huiswerk steven minken*/
+body {
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bold;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 8px;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+.div-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.kopjes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 300px;
+}
+
+.four {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.article-box {
+    flex-basis: 340px;
+    flex-grow: 1;
+}
+
+.five {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
